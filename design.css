@@ -1,0 +1,26 @@
+/* Update your #home section in design.css */
+#home {
+    /* Reduce height as requested earlier, but add padding-top for the navbar */
+    min-height: 60vh; 
+    padding-top: 80px; /* This creates space for the fixed black navbar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, black, #FF0000); 
+    color: white;
+}
+
+/* Ensure sections jump to the right spot when clicking nav links */
+section {
+    scroll-margin-top: 70px;
+}
+/* Adjust Skills margin */
+#skills {
+    margin-top: 30px; /* Reduced from 70px */
+}
+
+/* Force uniform image height for Projects */
+.card-img-top {
+    height: 250px; /* Forces all images to the same height */
+    object-fit: cover; /* Prevents stretching */
+}
